@@ -2,7 +2,7 @@
 
 Code release for *CausalAnalogy: A Strict-Rubric Benchmark for Cross-Domain Causal Analogy with Negative Results Across Four Architecture Families*.
 
-This repository contains the evaluation pipeline, training scripts, and benchmark construction code accompanying the paper. The benchmark dataset, distractor pools, and per-system evaluation results are released separately on HuggingFace (URL provided at submission).
+This repository contains the evaluation pipeline, training scripts, and benchmark construction code accompanying the paper. The benchmark dataset, distractor pools, and per-system evaluation results are released separately on HuggingFace (https://huggingface.co/datasets/causal-analogy-dataset/causalanalogy-bench).
 
 ## What this repository contains
 
@@ -61,7 +61,7 @@ Phase D evaluation runs against the cached Haiku extractions (`cache/all_extract
 # Install dependencies
 pip install -r requirements.txt
 
-# Download dataset and cache from HuggingFace (URL provided at submission)
+# Download dataset and cache from HuggingFace (https://huggingface.co/datasets/causal-analogy-dataset/causalanalogy-bench)
 # Place under ./dataset_release/ and ./cache/
 
 # Run evaluation
