@@ -1,0 +1,10 @@
+# CausalAnalogy — Python dependencies for the released code path
+# Generated from imports of the 21-file release set, pinned to currently-installed versions.
+# Direct dependencies only; pip will resolve transitives.
+
+anthropic==0.84.0
+networkx==3.4.2
+numpy==1.26.3
+scipy==1.15.3
+sentence-transformers==5.3.0
+torch==2.10.0
